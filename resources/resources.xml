@@ -1,0 +1,32 @@
+<resources>
+    <properties>
+        <property id="sixMinMMP" type="number">0</property>
+        <property id="UseCustomHR" type="boolean">false</property>
+        <property id="restingHR" type="number">0</property>
+        <property id="maxHR" type="number">0</property>
+    </properties>
+
+    <settings>
+        <setting propertyKey="@Properties.sixMinMMP" title="@Strings.sixMinMMP">
+            <settingConfig type="numeric" errorMessage="@Strings.invalid_number" />
+        </setting>
+        <setting propertyKey="@Properties.UseCustomHR" title="@Strings.UseCustomHR">
+            <settingConfig type="boolean"/>
+        </setting>
+        <setting propertyKey="@Properties.restingHR" title="@Strings.restingHR">
+            <settingConfig type="numeric" errorMessage="@Strings.invalid_number" />
+        </setting>
+        <setting propertyKey="@Properties.maxHR" title="@Strings.maxHR">
+            <settingConfig type="numeric" errorMessage="@Strings.invalid_number" />
+        </setting>
+    </settings>
+
+    <strings>
+        <string id="AppName">Aerobic Decoupling HRR vs 6minP</string>
+        <string id="sixMinMMP">Your six minutes mean maximal power</string>
+        <string id="UseCustomHR">Use custom heart rate settings</string>
+        <string id="restingHR">Resting heart rate</string>
+        <string id="maxHR">Max heart rate</string>
+        <string id="invalid_number">Please enter a number</string>
+    </strings>
+</resources>
