@@ -81,7 +81,6 @@
             <iq:product id="vivoactive_hr"/>
         </iq:products>
         <iq:permissions>
-            <iq:uses-permission id="DataFieldAlert"/>
             <iq:uses-permission id="FitContributor"/>
             <iq:uses-permission id="UserProfile"/>
         </iq:permissions>

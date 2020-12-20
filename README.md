@@ -1,8 +1,8 @@
-# %HRR vs %6min MPP GarminIQ data field
+# %HRR vs %6min MPP/Pace GarminIQ data field
 
 ## Background
 
-The relation between %HRR and %6min MPP is a good indicator for aerobic decoupling for training session.
+The relation between %HRR and %6min MPP is a good proxy for aerobic decoupling for a training session.
 
 Checkout Stephen Seilers video on [Long, low intensity endurance sessions](https://www.youtube.com/watch?v=3GXc474Hu5U)
 
@@ -13,3 +13,4 @@ The decoupling ratio is calculated along a rolling window of about ten minutes. 
 ## Usage
 
 Install from the GarminIQ store to your device and configure at least your individual 6 minute Mean Maximal Power settings value.
+If you want to use the data field in running mode, you can configure your 6 minute Pace instead and reset MMP to zero.
