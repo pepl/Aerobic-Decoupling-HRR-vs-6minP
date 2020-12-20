@@ -10,7 +10,7 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     protected var rollingAVGheartRateSum = 0;
     protected var rollingAVGpower = 0;
     protected var rollingAVGpowerSum = 0;
-    protected var arrayHRValue = new [180]; // Make size configurable
+    protected var arrayHRValue = new [180]; // TODO: Make size configurable
     protected var arrayPowerValue = new [180];
     protected var avgHRValue = 0;
     protected var avgPowerValue = 0;
@@ -33,11 +33,11 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             arrayPowerValue[i] = 0;
         }
 
-		readHRPowerSettings();
+        readHRPowerSettings();
 
-//    	userRestHR = 45;
-//    	userMaxHR = 202;
-//    	userSixMinMMP = 380;
+//        userRestHR = 45;
+//        userMaxHR = 202;
+//        userSixMinMMP = 380;
     }
 
     function compute(info) {
@@ -74,11 +74,11 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             }
             userpercentHRR = (rollingAVGheartRate.toFloat() - userRestHR) * 100 / (userMaxHR - userRestHR);
 
-			if ( userSixMinMMP > 0 ) {
-	            Sys.println("" + curPos + " currentHR: " + heartRate + ", rolling avg:" + rollingAVGheartRate + ", currentPWR: " + power + ", rolling avg:" + rollingAVGpower
-	                 + ", elapsedTime:" + info.elapsedTime 
-	                 + ", %HRR: " + userpercentHRR.format("%.4f") + ", %6minP: " + (rollingAVGpower.toFloat() * 100 / userSixMinMMP).format("%.4f"));
-			}
+            if ( userSixMinMMP > 0 ) {
+                Sys.println("" + curPos + " currentHR: " + heartRate + ", rolling avg:" + rollingAVGheartRate + ", currentPWR: " + power + ", rolling avg:" + rollingAVGpower
+                     + ", elapsedTime:" + info.elapsedTime
+                     + ", %HRR: " + userpercentHRR.format("%.4f") + ", %6minP: " + (rollingAVGpower.toFloat() * 100 / userSixMinMMP).format("%.4f"));
+            }
 
             curPos = curPos + 1;
             if (curPos > arrayHRValue.size()-1) {
@@ -103,7 +103,9 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
         return "n/a";
     }
 
-	function readHRPowerSettings() {
+    function readHRPowerSettings() {
+		// TODO: Read flag whether to use MPP oder sixMinPace
+
         var customHREnabled = coalesce(Application.getApp().getProperty("UseCustomHR"),false);
         var customRestHR = coalesce(Application.getApp().getProperty("restingHR"),0);
         var customMaxHR = coalesce(Application.getApp().getProperty("maxHR"),0);
