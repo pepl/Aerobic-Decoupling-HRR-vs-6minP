@@ -2,6 +2,7 @@ using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.System as Sys;
 using Toybox.UserProfile as User;
+using Toybox.FitContributor;
 
 class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     protected var heartRate = 0.0f;
@@ -24,7 +25,11 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
 
     protected var curPos = 0;
     protected var recCycleCount = 0;
+
+    protected var recordToFIT = null;
     var decouplingFactor;
+    var decouplingFactorField = null;
+    const DECOUPLING_FIELD_ID = 0;
 
     function initialize() {
         SimpleDataField.initialize();
@@ -34,7 +39,7 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             arrayPowerOrPaceValue[i] = 0;
         }
 
-        readHRPowerSettings();
+        readSettings();
 
         /*
         userPisMMP = 0;
@@ -48,6 +53,16 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
         }
         else {
             label = "%HRR/%6mPace";
+        }
+
+        if ( recordToFIT != null ) {
+            decouplingFactorField = createField(
+                "AerobicDecouplingFactor",
+                DECOUPLING_FIELD_ID,
+                FitContributor.DATA_TYPE_FLOAT,
+                {:mesgType=>FitContributor.MESG_TYPE_RECORD, :units=> label }
+            );
+            decouplingFactorField.setData(0.0);
         }
     }
 
@@ -125,6 +140,9 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
         if ( rollingAVGheartRate != null && rollingAVGheartRate > 0 && rollingAVGpowerOrPace > 0 && userpercentHRR > 0 && userSixMinP > 0 ) {
             decouplingFactor = userpercentHRR / userpercentP;
             Sys.println("Decoupling factor: " + decouplingFactor.format("%.4f"));
+            if ( recordToFIT != null ) {
+                decouplingFactorField.setData(decouplingFactor);
+            }
             return decouplingFactor.format("%.2f");
         }
         if ( userSixMinP == 0 ) {
@@ -133,7 +151,7 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
         return "n/a";
     }
 
-    function readHRPowerSettings() {
+    function readSettings() {
         var customHREnabled = coalesce(Application.getApp().getProperty("UseCustomHR"),false);
         var customRestHR = coalesce(Application.getApp().getProperty("restingHR"),0);
         var customMaxHR = coalesce(Application.getApp().getProperty("maxHR"),0);
@@ -157,6 +175,8 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             userRestHR = coalesce(UserProfile.getProfile().restingHeartRate,0);
             System.println("Using HR from user profile: " + userRestHR + "--" + userMaxHR);
         }
+
+        recordToFIT = Application.getApp().getProperty("recordToFIT");
     }
 
     function coalesce(nullableValue, defaultValue) {

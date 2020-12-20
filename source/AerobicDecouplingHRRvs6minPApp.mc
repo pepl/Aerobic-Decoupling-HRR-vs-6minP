@@ -23,6 +23,6 @@ class AerobicDecouplingHRRvs6minPApp extends Application.AppBase {
     }
 
     function onSettingsChanged() {
-        AerobicDecouplingHRRvs6minPViewInstance.readHRPowerSettings();
+        AerobicDecouplingHRRvs6minPViewInstance.readSettings();
     }
 }
