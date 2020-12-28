@@ -11,8 +11,8 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     protected var rollingAVGheartRateSum = 0;
     protected var rollingAVGpowerOrPace = 0;
     protected var rollingAVGpowerOrPaceSum = 0;
-    protected var arrayHRValue = new [180]; // TODO: Make size configurable
-    protected var arrayPowerOrPaceValue = new [180];
+    protected var arrayHRValue = new [540]; // TODO: Make size configurable
+    protected var arrayPowerOrPaceValue = new [540];
     protected var avgHRValue = 0;
     protected var avgPowerOrPaceValue = 0;
     protected var userRestHR = 0;
@@ -24,7 +24,6 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     protected var userPisMMP = 1;
 
     protected var curPos = 0;
-    protected var recCycleCount = 0;
 
     protected var recordToFIT = null;
     var decouplingFactor;
@@ -42,6 +41,7 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
         readSettings();
 
         /*
+        recordToFIT = true;
         userPisMMP = 0;
         userRestHR = 49;
         userMaxHR = 202;
@@ -94,10 +94,9 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
 
         avgHRValue = avgHRValue + heartRate;
         avgPowerOrPaceValue = avgPowerOrPaceValue + power_or_pace;
-        recCycleCount = recCycleCount + 1;
-        if (recCycleCount > 3 && avgHRValue > 0) {
-            arrayHRValue[curPos] = (avgHRValue / recCycleCount).toNumber();
-            arrayPowerOrPaceValue[curPos] = (avgPowerOrPaceValue / recCycleCount).toNumber();
+        if (avgHRValue > 0 && avgPowerOrPaceValue > 0 && power_or_pace > 0) {
+            arrayHRValue[curPos] = avgHRValue;
+            arrayPowerOrPaceValue[curPos] = avgPowerOrPaceValue;
             for (var i = 0; i < curPos; ++i) {
                 rollingAVGheartRateSum = rollingAVGheartRateSum + arrayHRValue[i];
                 rollingAVGpowerOrPaceSum = rollingAVGpowerOrPaceSum + arrayPowerOrPaceValue[i];
@@ -130,7 +129,6 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
                 curPos = 0;
             }
 
-            recCycleCount = 0;
             avgHRValue = 0;
             avgPowerOrPaceValue = 0;
             rollingAVGheartRateSum = 0;

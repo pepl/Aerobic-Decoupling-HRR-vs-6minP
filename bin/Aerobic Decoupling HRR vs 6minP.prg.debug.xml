@@ -11,94 +11,96 @@
         <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPApp.mc" id="6" lineNum="22" pc="268435523" symbol="getInitialView"/>
         <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPApp.mc" id="7" lineNum="25" pc="268435547" symbol="onSettingsChanged"/>
         <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPApp.mc" id="7" lineNum="26" pc="268435551" symbol="onSettingsChanged"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="34" pc="268435570" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="35" pc="268435574" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="37" pc="268435592" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="38" pc="268435622" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="39" pc="268435638" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="42" pc="268435667" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="51" pc="268435679" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="52" pc="268435696" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="55" pc="268435712" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="58" pc="268435725" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="59" pc="268435738" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="65" pc="268435824" symbol="initialize"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="69" pc="268435851" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="70" pc="268435855" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="71" pc="268435894" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="72" pc="268435907" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="74" pc="268435926" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="76" pc="268435939" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="33" pc="268435570" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="34" pc="268435574" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="36" pc="268435592" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="37" pc="268435622" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="38" pc="268435638" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="41" pc="268435667" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="43" pc="268435679" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="44" pc="268435689" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="45" pc="268435702" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="46" pc="268435715" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="56" pc="268435728" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="57" pc="268435745" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="60" pc="268435761" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="63" pc="268435774" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="64" pc="268435787" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="9" lineNum="70" pc="268435873" symbol="initialize"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="74" pc="268435900" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="75" pc="268435904" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="76" pc="268435943" symbol="compute"/>
         <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="77" pc="268435956" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="78" pc="268435969" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="80" pc="268435988" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="84" pc="268436004" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="87" pc="268436037" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="90" pc="268436062" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="95" pc="268436078" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="96" pc="268436103" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="97" pc="268436128" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="98" pc="268436150" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="99" pc="268436187" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="100" pc="268436230" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="101" pc="268436273" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="102" pc="268436294" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="103" pc="268436322" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="105" pc="268436363" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="106" pc="268436380" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="107" pc="268436396" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="110" pc="268436415" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="111" pc="268436440" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="114" pc="268436465" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="115" pc="268436523" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="116" pc="268436540" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="117" pc="268436557" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="119" pc="268436600" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="120" pc="268436617" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="123" pc="268436660" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="128" pc="268436826" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="129" pc="268436848" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="130" pc="268436883" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="133" pc="268436899" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="134" pc="268436912" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="135" pc="268436925" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="136" pc="268436938" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="137" pc="268436951" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="140" pc="268436967" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="141" pc="268437060" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="142" pc="268437085" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="143" pc="268437129" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="144" pc="268437142" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="146" pc="268437171" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="148" pc="268437197" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="149" pc="268437214" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="151" pc="268437223" symbol="compute"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="154" pc="268437230" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="155" pc="268437234" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="156" pc="268437280" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="157" pc="268437329" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="158" pc="268437378" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="159" pc="268437433" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="160" pc="268437466" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="161" pc="268437521" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="162" pc="268437538" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="163" pc="268437554" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="164" pc="268437567" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="167" pc="268437596" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="168" pc="268437626" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="169" pc="268437636" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="170" pc="268437646" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="173" pc="268437696" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="174" pc="268437732" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="175" pc="268437776" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="176" pc="268437823" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="179" pc="268437870" symbol="readSettings"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="182" pc="268437910" symbol="coalesce"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="183" pc="268437914" symbol="coalesce"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="184" pc="268437921" symbol="coalesce"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="186" pc="268437927" symbol="coalesce"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="14" pc="268437964" symbol="&lt;init&gt;"/>
-        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="15" pc="268437978" symbol="&lt;init&gt;"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="79" pc="268435975" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="81" pc="268435988" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="82" pc="268436005" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="83" pc="268436018" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="85" pc="268436037" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="89" pc="268436053" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="92" pc="268436086" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="95" pc="268436111" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="100" pc="268436127" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="101" pc="268436152" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="102" pc="268436177" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="103" pc="268436234" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="104" pc="268436259" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="105" pc="268436284" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="106" pc="268436305" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="107" pc="268436333" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="109" pc="268436374" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="110" pc="268436391" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="111" pc="268436407" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="114" pc="268436426" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="115" pc="268436451" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="118" pc="268436476" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="119" pc="268436534" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="120" pc="268436551" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="121" pc="268436568" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="123" pc="268436611" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="124" pc="268436628" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="127" pc="268436671" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="132" pc="268436837" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="133" pc="268436859" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="134" pc="268436894" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="137" pc="268436910" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="138" pc="268436923" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="139" pc="268436936" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="140" pc="268436949" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="143" pc="268436965" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="144" pc="268437058" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="145" pc="268437083" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="146" pc="268437127" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="147" pc="268437140" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="149" pc="268437169" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="151" pc="268437195" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="152" pc="268437212" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="10" lineNum="154" pc="268437221" symbol="compute"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="157" pc="268437228" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="158" pc="268437232" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="159" pc="268437278" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="160" pc="268437327" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="161" pc="268437376" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="162" pc="268437431" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="163" pc="268437464" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="164" pc="268437519" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="165" pc="268437536" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="166" pc="268437552" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="167" pc="268437565" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="170" pc="268437594" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="171" pc="268437624" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="172" pc="268437634" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="173" pc="268437644" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="176" pc="268437694" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="177" pc="268437730" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="178" pc="268437774" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="179" pc="268437821" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="11" lineNum="182" pc="268437868" symbol="readSettings"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="185" pc="268437908" symbol="coalesce"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="186" pc="268437912" symbol="coalesce"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="187" pc="268437919" symbol="coalesce"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="189" pc="268437925" symbol="coalesce"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="14" pc="268437962" symbol="&lt;init&gt;"/>
+        <entry filename="/home/mk/git/github/Aerobic-Decoupling-HRR-vs-6minP/source/AerobicDecouplingHRRvs6minPView.mc" id="12" lineNum="15" pc="268437976" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -109,48 +111,47 @@
         <entry field="true" id="14" symbol="rollingAVGpowerOrPace"/>
         <entry field="true" id="25" symbol="userPisMMP"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-        <entry field="true" id="40" symbol="sixMinMMP"/>
+        <entry field="true" id="39" symbol="sixMinMMP"/>
         <entry field="true" id="17" symbol="arrayPowerOrPaceValue"/>
-        <entry field="true" id="42" symbol="invalid_number"/>
+        <entry field="true" id="41" symbol="invalid_number"/>
         <entry field="true" id="26" symbol="curPos"/>
-        <entry id="33" method="true" symbol="coalesce"/>
+        <entry id="32" method="true" symbol="coalesce"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="15" symbol="rollingAVGpowerOrPaceSum"/>
-        <entry field="true" id="29" symbol="decouplingFactor"/>
+        <entry field="true" id="28" symbol="decouplingFactor"/>
         <entry field="true" id="23" symbol="userpercentP"/>
-        <entry field="true" id="43" symbol="AppName"/>
+        <entry field="true" id="42" symbol="AppName"/>
         <entry field="true" id="19" symbol="avgPowerOrPaceValue"/>
         <entry field="true" id="18" symbol="avgHRValue"/>
-        <entry id="32" method="true" symbol="readSettings"/>
+        <entry id="31" method="true" symbol="readSettings"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="28" symbol="recordToFIT"/>
+        <entry field="true" id="27" symbol="recordToFIT"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry field="true" id="12" symbol="rollingAVGheartRate"/>
-        <entry id="36" module="true" symbol="Menus"/>
+        <entry id="35" module="true" symbol="Menus"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="38" symbol="restingHR"/>
+        <entry field="true" id="37" symbol="restingHR"/>
         <entry id="10" object="true" symbol="AerobicDecouplingHRRvs6minPView"/>
         <entry field="true" id="21" symbol="userMaxHR"/>
         <entry field="true" id="8388738" symbol="currentSpeed"/>
         <entry field="true" id="20" symbol="userRestHR"/>
-        <entry field="true" id="27" symbol="recCycleCount"/>
         <entry id="8389137" method="true" symbol="compute"/>
         <entry field="true" id="8388742" symbol="currentPower"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="44" symbol="sixMinPace"/>
+        <entry field="true" id="43" symbol="sixMinPace"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry field="true" id="11" symbol="power_or_pace"/>
-        <entry field="true" id="39" symbol="maxHR"/>
+        <entry field="true" id="38" symbol="maxHR"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="24" symbol="userSixMinP"/>
-        <entry field="true" id="37" symbol="LauncherIcon"/>
+        <entry field="true" id="36" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="41" symbol="UseCustomHR"/>
+        <entry field="true" id="40" symbol="UseCustomHR"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry field="true" id="8388960" symbol="heartRate"/>
         <entry id="8388702" method="true" symbol="initialize"/>
@@ -160,11 +161,11 @@
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389847" symbol="mesgType"/>
-        <entry field="true" id="30" symbol="decouplingFactorField"/>
+        <entry field="true" id="29" symbol="decouplingFactorField"/>
         <entry id="9" object="true" symbol="AerobicDecouplingHRRvs6minPApp"/>
-        <entry id="35" module="true" symbol="Layouts"/>
-        <entry field="true" id="34" symbol="AerobicDecouplingHRRvs6minPViewInstance"/>
-        <entry field="true" id="31" symbol="DECOUPLING_FIELD_ID"/>
+        <entry id="34" module="true" symbol="Layouts"/>
+        <entry field="true" id="33" symbol="AerobicDecouplingHRRvs6minPViewInstance"/>
+        <entry field="true" id="30" symbol="DECOUPLING_FIELD_ID"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry field="true" id="22" symbol="userpercentHRR"/>
         <entry id="8388635" module="true" symbol="Application"/>
@@ -174,27 +175,27 @@
         <entry arg="true" endPc="268435484" name="state" stackId="1" startPc="268435479"/>
         <entry arg="true" endPc="268435489" name="state" stackId="1" startPc="268435484"/>
         <entry endPc="268435667" name="i" stackId="1" startPc="268435622"/>
-        <entry endPc="268436363" name="i" stackId="2" startPc="268436294"/>
-        <entry arg="true" endPc="268437230" name="info" stackId="1" startPc="268435851"/>
-        <entry endPc="268437870" name="zones" stackId="4" startPc="268437696"/>
-        <entry endPc="268437909" name="customMaxHR" stackId="3" startPc="268437234"/>
-        <entry endPc="268437909" name="customRestHR" stackId="2" startPc="268437234"/>
-        <entry endPc="268437909" name="customHREnabled" stackId="1" startPc="268437234"/>
-        <entry arg="true" endPc="268437931" name="defaultValue" stackId="2" startPc="268437910"/>
-        <entry arg="true" endPc="268437931" name="nullableValue" stackId="1" startPc="268437910"/>
+        <entry endPc="268436374" name="i" stackId="2" startPc="268436305"/>
+        <entry arg="true" endPc="268437228" name="info" stackId="1" startPc="268435900"/>
+        <entry endPc="268437868" name="zones" stackId="4" startPc="268437694"/>
+        <entry endPc="268437907" name="customMaxHR" stackId="3" startPc="268437232"/>
+        <entry endPc="268437907" name="customRestHR" stackId="2" startPc="268437232"/>
+        <entry endPc="268437907" name="customHREnabled" stackId="1" startPc="268437232"/>
+        <entry arg="true" endPc="268437929" name="defaultValue" stackId="2" startPc="268437908"/>
+        <entry arg="true" endPc="268437929" name="nullableValue" stackId="1" startPc="268437908"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
         <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
         <dataEntry offset="150" parentId="globals" symbolId="AerobicDecouplingHRRvs6minPView" type="class"/>
-        <dataEntry offset="397" parentId="globals" symbolId="AerobicDecouplingHRRvs6minPApp" type="class"/>
-        <dataEntry offset="484" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="563" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="602" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="633" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="664" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="695" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="726" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="389" parentId="globals" symbolId="AerobicDecouplingHRRvs6minPApp" type="class"/>
+        <dataEntry offset="476" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="555" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="594" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="625" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="656" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="687" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="718" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="AerobicDecouplingHRRvs6minPApp">
