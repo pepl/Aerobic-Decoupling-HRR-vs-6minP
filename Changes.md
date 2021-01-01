@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.3] - 2021-01-01
+
+- Support custom rolling window size. Happy New Year!
+
 ## [0.0.2] - 2020-12-28
 
 - Support all Garmin devices with data field support

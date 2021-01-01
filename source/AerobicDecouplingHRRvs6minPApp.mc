@@ -2,7 +2,7 @@ using Toybox.Application;
 
 class AerobicDecouplingHRRvs6minPApp extends Application.AppBase {
 
-	var AerobicDecouplingHRRvs6minPViewInstance;
+    var AerobicDecouplingHRRvs6minPViewInstance;
 
     function initialize() {
         AppBase.initialize();
@@ -18,7 +18,7 @@ class AerobicDecouplingHRRvs6minPApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-    	AerobicDecouplingHRRvs6minPViewInstance = new AerobicDecouplingHRRvs6minPView();
+        AerobicDecouplingHRRvs6minPViewInstance = new AerobicDecouplingHRRvs6minPView();
         return [ AerobicDecouplingHRRvs6minPViewInstance ];
     }
 

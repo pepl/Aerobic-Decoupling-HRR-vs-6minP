@@ -11,8 +11,8 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     protected var rollingAVGheartRateSum = 0;
     protected var rollingAVGpowerOrPace = 0;
     protected var rollingAVGpowerOrPaceSum = 0;
-    protected var arrayHRValue = new [540]; // TODO: Make size configurable
-    protected var arrayPowerOrPaceValue = new [540];
+    protected var arrayHRValue = [];
+    protected var arrayPowerOrPaceValue = [];
     protected var avgHRValue = 0;
     protected var avgPowerOrPaceValue = 0;
     protected var userRestHR = 0;
@@ -20,6 +20,8 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     protected var userpercentHRR = 0;
     protected var userpercentP = 0;
 
+    const DEFAULT_ROLLING_WINDOW_SIZE = 540;
+    protected var rollingWindowSize;
     protected var userSixMinP;
     protected var userPisMMP = 1;
 
@@ -33,19 +35,14 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     function initialize() {
         SimpleDataField.initialize();
 
-        for (var i = 0; i < arrayHRValue.size(); ++i) {
-            arrayHRValue[i] = 0;
-            arrayPowerOrPaceValue[i] = 0;
-        }
-
         readSettings();
 
         /*
         recordToFIT = true;
-        userPisMMP = 0;
+        userPisMMP = 1;
         userRestHR = 49;
         userMaxHR = 202;
-        userSixMinP = 455; // 455 // 380
+        userSixMinP = 380; // 455 // 380
         */
 
         if ( userPisMMP == 1 ) {
@@ -95,8 +92,8 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
         avgHRValue = avgHRValue + heartRate;
         avgPowerOrPaceValue = avgPowerOrPaceValue + power_or_pace;
         if (avgHRValue > 0 && avgPowerOrPaceValue > 0 && power_or_pace > 0) {
-            arrayHRValue[curPos] = avgHRValue;
-            arrayPowerOrPaceValue[curPos] = avgPowerOrPaceValue;
+            arrayHRValue.add(avgHRValue);
+            arrayPowerOrPaceValue.add(avgPowerOrPaceValue);
             for (var i = 0; i < curPos; ++i) {
                 rollingAVGheartRateSum = rollingAVGheartRateSum + arrayHRValue[i];
                 rollingAVGpowerOrPaceSum = rollingAVGpowerOrPaceSum + arrayPowerOrPaceValue[i];
@@ -125,8 +122,10 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             }
 
             curPos = curPos + 1;
-            if (curPos > arrayHRValue.size()-1) {
+            if (curPos > rollingWindowSize) {
                 curPos = 0;
+                arrayHRValue = [];
+                arrayPowerOrPaceValue = [];
             }
 
             avgHRValue = 0;
@@ -172,6 +171,11 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             userMaxHR = coalesce(zones[zones.size()-1],-1);
             userRestHR = coalesce(UserProfile.getProfile().restingHeartRate,0);
             System.println("Using HR from user profile: " + userRestHR + "--" + userMaxHR);
+        }
+
+        rollingWindowSize = coalesce(Application.getApp().getProperty("rollingWindowSize"),DEFAULT_ROLLING_WINDOW_SIZE);
+        if ( rollingWindowSize != DEFAULT_ROLLING_WINDOW_SIZE ) {
+            System.println("Using custom rolling window size: " + rollingWindowSize);
         }
 
         recordToFIT = Application.getApp().getProperty("recordToFIT");

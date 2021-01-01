@@ -6,6 +6,7 @@
         <property id="recordToFIT" type="boolean">false</property>
         <property id="restingHR" type="number">0</property>
         <property id="maxHR" type="number">0</property>
+        <property id="rollingWindowSize" type="number">540</property>
     </properties>
 
     <settings>
@@ -24,6 +25,9 @@
         <setting propertyKey="@Properties.maxHR" title="@Strings.maxHR">
             <settingConfig type="numeric" errorMessage="@Strings.invalid_number" />
         </setting>
+        <setting propertyKey="@Properties.rollingWindowSize" title="@Strings.rollingWindowSize">
+            <settingConfig type="numeric" errorMessage="@Strings.invalid_number" />
+        </setting>
         <setting propertyKey="@Properties.recordToFIT" title="@Strings.recordToFIT">
             <settingConfig type="boolean"/>
         </setting>
@@ -37,6 +41,7 @@
         <string id="recordToFIT">Record decoupling factor to FIT file</string>
         <string id="restingHR">Resting heart rate</string>
         <string id="maxHR">Max heart rate</string>
+        <string id="rollingWindowSize">Size of rolling window (in recording cycles). Defaults to 540.</string>
         <string id="invalid_number">Please enter a number</string>
     </strings>
 </resources>
