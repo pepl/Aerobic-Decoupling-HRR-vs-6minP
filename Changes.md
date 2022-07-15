@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.4] - 2022-07-14
+
+- Support for new Garmin Devices (Edge 1040, Edge Explore 2).
+
 ## [0.0.3] - 2021-01-01
 
 - Support custom rolling window size. Happy New Year!
