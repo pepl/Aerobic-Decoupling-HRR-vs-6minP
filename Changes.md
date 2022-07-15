@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.5] - 2022-07-15
+
+- Support for more new Garmin Devices (Fenix 7*, Forerunner 255*, 955).
+
 ## [0.0.4] - 2022-07-14
 
 - Support for new Garmin Devices (Edge 1040, Edge Explore 2).
