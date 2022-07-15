@@ -108,7 +108,7 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             }
 
             userpercentHRR = (rollingAVGheartRate.toFloat() - userRestHR) * 100 / (userMaxHR - userRestHR);
-            if ( userSixMinP > 0 ) {
+            if ( userSixMinP instanceof Lang.Number && userSixMinP > 0 ) {
                 if ( userPisMMP == 1 ) {
                     userpercentP = (rollingAVGpowerOrPace.toFloat() * 100 / userSixMinP);
                 }
@@ -134,7 +134,7 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             rollingAVGpowerOrPaceSum = 0;
         }
 
-        if ( rollingAVGheartRate != null && rollingAVGheartRate > 0 && rollingAVGpowerOrPace > 0 && userpercentHRR > 0 && userSixMinP > 0 ) {
+        if ( rollingAVGheartRate != null && rollingAVGheartRate > 0 && rollingAVGpowerOrPace > 0 && userpercentHRR > 0 && userSixMinP instanceof Lang.Number && userSixMinP > 0 ) {
             decouplingFactor = userpercentHRR / userpercentP;
             Sys.println("Decoupling factor: " + decouplingFactor.format("%.4f"));
             if ( recordToFIT != null ) {
@@ -142,7 +142,7 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             }
             return decouplingFactor.format("%.2f");
         }
-        if ( userSixMinP == 0 ) {
+        if ( userSixMinP instanceof Lang.Number && userSixMinP == 0 ) {
             return "6minP? Configure via Connect App!";
         }
         return "n/a";
