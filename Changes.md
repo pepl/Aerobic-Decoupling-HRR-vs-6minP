@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.6] - 2023-04-17
+
+- Support for new Garmin Edge 540/840 (Solar).
+
 ## [0.0.5] - 2022-07-15
 
 - Support for more new Garmin Devices (Fenix 7*, Forerunner 255*, 955).
