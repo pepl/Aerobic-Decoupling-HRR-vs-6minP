@@ -3,6 +3,7 @@ using Toybox.Graphics;
 using Toybox.System as Sys;
 using Toybox.UserProfile as User;
 using Toybox.FitContributor;
+using Toybox.Application.Properties;
 
 class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     protected var heartRate = 0.0f;
@@ -149,12 +150,32 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
     }
 
     function readSettings() {
-        var customHREnabled = coalesce(Application.getApp().getProperty("UseCustomHR"),false);
-        var customRestHR = coalesce(Application.getApp().getProperty("restingHR"),0);
-        var customMaxHR = coalesce(Application.getApp().getProperty("maxHR"),0);
-        userSixMinP = coalesce(Application.getApp().getProperty("sixMinMMP"),0);
+        var customHREnabled;
+        var customRestHR;
+        var customMaxHR;
+        var userSixMinPace;
+        var customRollingWindowSize;
+
+		if ( Toybox.Application has :Storage ) {
+			customHREnabled = coalesce(Properties.getValue("UseCustomHR"),false);
+			customRestHR = coalesce(Properties.getValue("restingHR"),0);
+			customMaxHR = coalesce(Properties.getValue("maxHR"),0);
+			userSixMinP = coalesce(Properties.getValue("sixMinMMP"),0);
+			userSixMinPace = coalesce(Properties.getValue("sixMinPace"),0);
+			customRollingWindowSize = coalesce(Properties.getValue("rollingWindowSize"),DEFAULT_ROLLING_WINDOW_SIZE);
+			recordToFIT = Properties.getValue("recordToFIT");
+		} else {
+			customHREnabled = coalesce(Application.getApp().getProperty("UseCustomHR"),false);
+			customRestHR = coalesce(Application.getApp().getProperty("restingHR"),0);
+			customMaxHR = coalesce(Application.getApp().getProperty("maxHR"),0);
+			userSixMinP = coalesce(Application.getApp().getProperty("sixMinMMP"),0);
+			userSixMinPace = coalesce(Application.getApp().getProperty("sixMinPace"),0);
+			customRollingWindowSize = coalesce(Application.getApp().getProperty("rollingWindowSize"),DEFAULT_ROLLING_WINDOW_SIZE);
+			recordToFIT = Application.getApp().getProperty("recordToFIT");
+		}
+
         if ( userSixMinP == null || userSixMinP == 0 ) {
-            userSixMinP = coalesce(Application.getApp().getProperty("sixMinPace"),0);
+            userSixMinP = userSixMinPace;
             if ( userSixMinP > 0 ) {
                 userSixMinP = userSixMinP;
                 userPisMMP = 0;
@@ -173,12 +194,10 @@ class AerobicDecouplingHRRvs6minPView extends WatchUi.SimpleDataField {
             System.println("Using HR from user profile: " + userRestHR + "--" + userMaxHR);
         }
 
-        rollingWindowSize = coalesce(Application.getApp().getProperty("rollingWindowSize"),DEFAULT_ROLLING_WINDOW_SIZE);
+        rollingWindowSize = customRollingWindowSize;
         if ( rollingWindowSize != DEFAULT_ROLLING_WINDOW_SIZE ) {
             System.println("Using custom rolling window size: " + rollingWindowSize);
         }
-
-        recordToFIT = Application.getApp().getProperty("recordToFIT");
     }
 
     function coalesce(nullableValue, defaultValue) {

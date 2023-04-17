@@ -3,6 +3,7 @@
 ## [0.0.6] - 2023-04-17
 
 - Support for new Garmin Edge 540/840 (Solar).
+- Make use of (newer) Properties class.
 
 ## [0.0.5] - 2022-07-15
 
